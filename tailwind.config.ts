@@ -59,6 +59,10 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        helvetica: ["var(--font-helvetica)"],
+        kugile: ["var(--font-kugile)"],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
