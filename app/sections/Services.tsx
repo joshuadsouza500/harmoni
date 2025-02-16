@@ -1,7 +1,54 @@
+import { Package, PenTool, Shield, Wrench } from "lucide-react";
 import React from "react";
+import FeaturesCard from "../components/FeaturesCard";
+import { Bounded } from "../components/Bounded";
 
 const Services = () => {
-  return <div>Services</div>;
+  const features = [
+    {
+      icon: Package,
+      title: "Free Delivery",
+      description: "Enjoy free delivery on all orders over $500.",
+    },
+    {
+      icon: Wrench,
+      title: "Free Assembly",
+      description: "Professional assembly service included with your purchase.",
+    },
+    {
+      icon: Shield,
+      title: "Extended Warranty",
+      description:
+        "Protect your investment with our comprehensive furniture warranty.",
+    },
+    {
+      icon: PenTool,
+      title: "Planning and Consultation",
+      description:
+        "Work with our specialists to design to align your space according to your needs and budget.",
+    },
+  ];
+
+  return (
+    <Bounded className="h-auto pt-8 md:pt-14 bg-[#FAFAFA] 2xl:pt-16  pb-16  xl:pb-20 ">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-semibold text-gray-900 mb-2">
+          Why Choose Us
+        </h2>
+        <p className="text-gray-600">Shop our new collection of products</p>
+      </div>
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {features.map((feature, index) => (
+          <FeaturesCard
+            key={index}
+            icon={feature.icon}
+            title={feature.title}
+            description={feature.description}
+          />
+        ))}
+      </section>
+    </Bounded>
+  );
 };
 
 export default Services;

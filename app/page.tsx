@@ -3,6 +3,7 @@ import Categories from "./sections/Categories";
 import Collection from "./sections/Collection";
 import Hero from "./sections/Hero";
 import NewCollection from "./sections/NewCollection";
+import Services from "./sections/Services";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <NewCollection />
+      <Services />
       <Categories />
       <Collection />
     </div>
