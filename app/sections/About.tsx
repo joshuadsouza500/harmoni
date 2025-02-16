@@ -15,7 +15,7 @@ const About = () => {
           elegance."`}
         </p>
       </div>
-      <div className="flex pt-8 md:pt-10 lg:pt-14 2xl:pt-16  items-center justify-between w-[95%] md:max-w-4xl lg:max-w-5xl 2xl:max-w-7xl  mx-auto">
+      <div className="flex pt-10 md:pt-14 lg:pt-16 2xl:pt-20  items-center justify-between w-[95%] md:max-w-4xl lg:max-w-5xl 2xl:max-w-7xl  mx-auto">
         <div className="text-center gap-y-1 md:gap-y-2 2xl:gap-y-3">
           <h1 className="text-3xl xl:text-4xl 2xl:text-5xl font-bold"> 400+</h1>
           <p className="max-md:text-xs text-black/50">Products Available</p>
