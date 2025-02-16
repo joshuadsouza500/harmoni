@@ -37,7 +37,7 @@ const Services = () => {
         </h2>
         <p className="text-gray-600">Shop our new collection of products</p>
       </div>
-      <section className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+      <section className="grid grid-cols-2 md:px-6 lg:grid-cols-4 gap-3 md:gap-6 2xl:mx-10">
         {features.map((feature, index) => (
           <FeaturesCard
             key={index}

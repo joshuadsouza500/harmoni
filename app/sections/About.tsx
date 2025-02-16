@@ -8,7 +8,10 @@ const About = () => {
         <h2 className="lg:col-span-1 text-3xl   lg:text-4xl pb-6   font-medium">
           About Us
         </h2>
-        <p className="lg:col-span-2 text-xl lg:text-2xl 2xl:text-3xl font-medium">
+        <p className=" md:hidden text-xl  font-medium">
+          {`"Exceptional furniture creates beautiful, functional homes. We combine modern aesthetics with timeless elegance and expert craftsmanship."`}
+        </p>
+        <p className="hidden md:block lg:col-span-2 text-xl lg:text-2xl 2xl:text-3xl font-medium">
           {`"We believe that exceptional furniture is the cornerstone of
           a beautiful and functional home. With a deep passion for design and
           craftsmanship, we strive to blend modern aesthetics with timeless

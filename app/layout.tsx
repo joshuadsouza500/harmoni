@@ -9,6 +9,10 @@ const helvetica = localFont({
       path: "../public/fonts/Helvetica.ttf",
       weight: "400",
     },
+    {
+      path: "../public/fonts/Helvetica-Bold.ttf",
+      weight: "700",
+    },
   ],
   variable: "--font-helvetica",
 });
@@ -36,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${helvetica.variable} ${kugile.variable}   antialiased`}
+        className={`${helvetica.variable} ${kugile.variable}   antialiased `}
       >
         {children}
       </body>
