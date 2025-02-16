@@ -7,46 +7,48 @@ import FurnitureCard from "../components/FurnitureCard";
 const NewCollection = () => {
   const furnitureItems = [
     {
+      name: "Minimalist Sofa",
+      price: 1450,
+      image:
+        "https://mononova.ru/wp-content/uploads/2022/12/base_a_main-1270x1270.png",
+      colors: ["#800000", "#8E9196", "#1A1F2C"],
+    },
+
+    {
       name: "Modern Lounge Chair",
       price: 1299,
       image:
         "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-28-img-1.jpg",
-      colors: ["#DCE0E4", "#1A1F2C", "#8E9196"],
+      colors: ["#228B22", "#1A1F2C", "#8E9196"],
     },
+
     {
-      name: "Minimalist Sofa",
-      price: 1.899,
+      name: "Study Chair",
+      price: 800,
       image:
-        "https://mononova.ru/wp-content/uploads/2022/12/base_a_main-1270x1270.png",
-      colors: ["#E5DEFF", "#1A1F2C", "#D6BCFA"],
+        "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-2-img-1.jpg",
+      colors: ["#8E9196", "#1A1F2C"],
     },
     {
-      name: "Scandinavian Dining Table",
-      price: 1899,
+      name: "Designer Chair",
+      price: 350,
+      image:
+        "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-18-img-1.jpg",
+      colors: ["#55392c", "#1A1F2C", "#008080"],
+    },
+    {
+      name: "Scandinavian Table",
+      price: 699,
       image:
         "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-5-img-1.jpg",
-      colors: ["#DCE0E4", "#8E9196"],
+      colors: ["#F4A460", "#C0C0C0"],
     },
     {
       name: "Artisan Coffee Table",
       price: 400,
       image:
         "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-8-img-1.jpg",
-      colors: ["#1A1F2C", "#8E9196"],
-    },
-    {
-      name: "Designer Bookshelf",
-      price: 350,
-      image:
-        "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-18-img-1.jpg",
-      colors: ["#FAF72F", "#1A1F2C", "#8E9196"],
-    },
-    {
-      name: "Executive Desk",
-      price: 800,
-      image:
-        "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-2-img-1.jpg",
-      colors: ["#DCE0E4", "#1A1F2C"],
+      colors: ["#C0C0C0", "#8E9196"],
     },
   ];
 
@@ -67,7 +69,7 @@ const NewCollection = () => {
           <ArrowRight className="size-4 " />
         </span>
       </div>
-      <section className="pt-14 grid grid-cols-1 md:px-2 lg:grid-cols-3 gap-3 md:gap-6 2xl:mx-6">
+      <section className="pt-14 grid grid-cols-1 md:mx-4 lg:grid-cols-3 gap-3 md:gap-6 xl:mx-10">
         {" "}
         {furnitureItems.map((item, index) => (
           <FurnitureCard
