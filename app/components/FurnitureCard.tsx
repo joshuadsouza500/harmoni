@@ -10,6 +10,9 @@ interface FurnitureCardProps {
   style: React.CSSProperties;
 }
 
+{
+  /**Furniture card */
+}
 const FurnitureCard = ({
   name,
   price,
