@@ -18,7 +18,7 @@ const NewCollection = () => {
       name: "Modern Lounge Chair",
       price: 1299,
       image:
-        "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-28-img-1.jpg",
+        "https://mononova.ru/wp-content/uploads/2022/08/oscar-8-768x768.jpeg",
       colors: ["#228B22", "#1A1F2C", "#8E9196"],
     },
 
