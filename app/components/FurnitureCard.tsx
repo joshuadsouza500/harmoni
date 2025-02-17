@@ -28,7 +28,7 @@ const FurnitureCard = ({
         className="relative h-[380px] 2xl:h-[400px] w-full bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-[1.01]"
         style={{ backgroundImage: `url(${image})` }}
       >
-        <div className="absolute inset-0 bg-black/5 transition-opacity duration-300 group-hover:opacity-20" />
+        <div className="absolute inset-0 bg-zinc-400/5 transition-opacity duration-300 group-hover:opacity-20" />
       </div>
       <div className="absolute top-2  right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white rounded-full p-2">
         <ShoppingBag className="text-black size-6 " />

@@ -1,6 +1,7 @@
 import About from "./sections/About";
 import Categories from "./sections/Categories";
 import Collection from "./sections/Collection";
+import FAQ from "./sections/FAQ";
 import Hero from "./sections/Hero";
 import NewCollection from "./sections/NewCollection";
 import Services from "./sections/Services";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Categories />
       <Collection />
+      <FAQ />
     </div>
   );
 }

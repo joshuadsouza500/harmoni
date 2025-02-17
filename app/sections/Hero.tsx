@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-[url('/images/Hero2.jpeg')] h-[70vh] lg:h-screen  bg-no-repeat bg-center bg-cover relative mx-1 md:mx-2 rounded-xl ">
+    <section className="bg-[url('/images/Hero2.jpeg')] h-[70vh] lg:h-screen xl:h-[95vh]  bg-no-repeat bg-center bg-cover relative mx-1 md:mx-2 2xl:mx-4 rounded-xl ">
       {" "}
       {/** <div className="absolute inset-0 rounded-xl bg-black/25 h-full w-full z-0" /> */}
       <div className=" flex flex-col justify-center items-center  h-full gap-y-1  z-10 relative ">
