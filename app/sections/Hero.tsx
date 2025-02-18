@@ -10,8 +10,8 @@ const Hero = () => {
           Harmoni
         </h1>
         <h6 className="text-white lg:w-[50%] pl-28 md:pl-48 lg:pl-80 ">
-          Elevating your home with a perfect blend of style, comfort, and love
-          for a more harmonious lifestyle
+          Your destination for stylish and durable furniture, designed to help
+          you create a home that reflects your unique taste and lifestyle.
         </h6>
       </div>
     </section>

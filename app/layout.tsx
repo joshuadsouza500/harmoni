@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "./components/layout/Footer";
 
 const helvetica = localFont({
   src: [
@@ -43,6 +44,7 @@ export default function RootLayout({
         className={`${helvetica.variable} ${kugile.variable}   antialiased `}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
