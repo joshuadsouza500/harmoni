@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" pt-20">
-      <Link href="/" className="cursor-pointer ">
+    <footer className="pt-6 lg:pt-20">
+      <Link href="/" className="cursor-pointer overflow-hidden z-0 relative ">
         {" "}
-        <h1 className="font-black  tracking-tight font-kugile text-center text-9xl md:text-[200px] xl:text-[250px]  leading-[0.55] text-black/15 animate-textup">
+        <h1 className="font-black tracking-wide lg:tracking-tight font-kugile text-center text-7xl md:text-9xl lg:text-[180px] xl:text-[250px] leading-[0.65]  md:leading-[0.5]   text-black/15 animate-text-up xl:pt-24">
           Harmoni
         </h1>
       </Link>
-      <section className="bg-slate-900 mb-1 mx-1 rounded-xl text-white pt-8 xl:pt-16 px-4 md:px-6 2xl:mx-2">
+      <section className="bg-slate-900 mb-1 mx-1 rounded-xl text-white pt-8 xl:pt-16 px-4 md:px-6 2xl:mx-2 overflow-hidden z-10 relative">
         <div className="  max-w-7xl 2xl:max-w-8xl mx-auto grid grid-cols-2 lg:grid-cols-3  gap-5 ">
           {/* Brand Column */}
           <div className=" space-y-2">
@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
 
           {/* Newsletter Column */}
-          <div className="hidden md:block max-md:pt-8 max-md:col-span-2">
+          <div className="hidden lg:block max-md:pt-8 max-md:col-span-2">
             <h3 className="font-semibold mb-2">Newsletter</h3>
             <p className="text-gray-300 text-sm mb-4">
               Subscribe to our newsletter for updates and exclusive offers.

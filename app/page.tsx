@@ -8,7 +8,7 @@ import Services from "./sections/Services";
 
 export default function Home() {
   return (
-    <div className=" bg-white font-helvetica py-2 ">
+    <div className=" bg-white font-mono py-2 ">
       <Hero />
       <About />
       <NewCollection />

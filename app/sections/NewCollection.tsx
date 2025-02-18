@@ -69,7 +69,7 @@ const NewCollection = () => {
           <ArrowRight className="size-4 " />
         </span>
       </div>
-      <section className="pt-14 grid grid-cols-1 md:mx-4 lg:grid-cols-3 gap-3 md:gap-6 xl:mx-10">
+      <section className="pt-14 grid grid-cols-1 md:mx-4 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 xl:mx-10">
         {" "}
         {furnitureItems.map((item, index) => (
           <FurnitureCard
