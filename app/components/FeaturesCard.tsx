@@ -16,7 +16,7 @@ const FeaturesCard = ({
   return (
     <div className=" relative py-3 md:py-6 px-1 md:px-4 2xl:py-8  rounded-2xl bg-slate-300  transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1 group ">
       <div
-        className={`w-12 h-12 rounded-full bg-[#F8F9FA] flex items-center justify-center mb-4 mx-auto   `}
+        className={`w-12 h-12 rounded-full bg-[#ffffff] flex items-center justify-center mb-4 mx-auto   `}
       >
         <Icon className="w-6 h-6 text-gray-700" />
       </div>
