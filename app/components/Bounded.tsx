@@ -7,6 +7,9 @@ type BoundedProps = {
   style?: CSSProperties;
   children: ReactNode;
 };
+{
+  /**Wrapper element */
+}
 
 export function Bounded({
   as: Comp = "section",

@@ -5,7 +5,9 @@ interface FeaturesCardProps {
   title: string;
   description: string;
 }
-
+{
+  /** Store features card */
+}
 const FeaturesCard = ({
   icon: Icon,
   title,
