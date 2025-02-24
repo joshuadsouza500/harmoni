@@ -3,15 +3,15 @@ import { Bounded } from "../components/Bounded";
 
 const About = () => {
   return (
-    <Bounded className="h-auto pt-14 2xl:pt-16  pb-16  xl:pb-20 ">
+    <Bounded className="h-auto pt-14 2xl:pt-16  pb-16  xl:pb-20 bg- [#F3F0EA]">
       <div className="grid lg:grid-cols-3   text-center w-full lg:justify-between lg:content-center   lg:text-left ">
-        <h2 className="lg:col-span-1 text-3xl   lg:text-4xl pb-6   font-medium">
+        <h2 className="lg:col-span-1 text-3xl   lg:text-4xl pb-6   font-medium text-[#533f32]">
           About Us
         </h2>
         <p className=" md:hidden text-xl  font-medium">
           {`"Exceptional furniture creates beautiful, functional homes. We combine modern aesthetics with timeless elegance and expert craftsmanship."`}
         </p>
-        <p className="hidden md:block lg:col-span-2 text-xl lg:text-2xl xl:leading-snug xl:text-3xl font-medium">
+        <p className="hidden md:block lg:col-span-2 text-xl lg:text-2xl xl:leading-snug xl:text-3xl font-medium text-[#8a634b]">
           {`"We believe that exceptional furniture is the cornerstone of
           a beautiful and functional home. With a deep passion for design and
           craftsmanship, we strive to blend modern aesthetics with timeless
