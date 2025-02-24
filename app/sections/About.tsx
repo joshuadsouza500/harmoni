@@ -1,6 +1,6 @@
 import React from "react";
 import { Bounded } from "../components/Bounded";
-
+import Logo from "@/public/images/Logo";
 const About = () => {
   return (
     <Bounded className="h-auto pt-14 2xl:pt-16  pb-16  xl:pb-20 bg- [#F3F0EA]">
@@ -20,9 +20,10 @@ const About = () => {
       </div>
       <div className="flex pt-10 md:pt-14 lg:pt-16 2xl:pt-20  items-center justify-between sm:w-[95%] md:max-w-4xl lg:max-w-5xl 2xl:max-w-6xl  mx-auto">
         <div className="text-center gap-y-1 md:gap-y-2 2xl:gap-y-3">
-          <h1 className="text-4xl md:text-5xl  2xl:text-6xl font-bold">
+          <h1 className="text-4xl md:text-5xl  2xl:text-6xl font-bold flex items-center  gap-x-2.5">
             {" "}
-            400+
+            400
+            <Logo className="rotate-45 transition-transform" />
           </h1>
           <p className=" max-sm:w-[80%] mx-auto max-md:text-xs  text-black/50">
             Products Available
