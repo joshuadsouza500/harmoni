@@ -17,7 +17,10 @@ interface CollectionProps {
 
 const CollectionLook = ({ image, products }: CollectionProps) => {
   return (
-    <div style={{ backgroundImage: `url(${image})`, position: "relative" }}>
+    <div
+      style={{ backgroundImage: `url(${image})`, position: "relative" }}
+      className="w-full h-full bg-no-repeat bg-center bg-cover"
+    >
       {products.map((product, index) => (
         <ProductHotspot key={index} product={product} />
       ))}

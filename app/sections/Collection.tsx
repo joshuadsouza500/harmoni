@@ -13,22 +13,24 @@ const Collection = () => {
         {
           name: "Rico Lazy Sofa",
           price: 1299,
-          image: "/images/Collection.jpeg",
+          image:
+            "https://spaze.com/cdn/shop/files/Regrading2100x1400_Bella_Sofa_BirchIvory_WhiteBackground_DSC_9425.jpg?v=1732827303&width=1200",
           x: 50,
           y: 45,
         },
         {
-          name: "Jute Area Rug",
+          name: "Picture Frame",
           price: 299,
-          image: "/images/Collection.jpeg",
+          image:
+            "https://www.ikea.com/gb/en/images/products/knoppaeng-frame-black__0756626_pe748998_s5.jpg?f=u",
           x: 50,
           y: 85,
         },
         {
-          name: "Ceramic Plant Pot",
+          name: "Jute Plant Pot",
           price: 89,
           image:
-            "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
+            "https://www.ikea.com/bh/en/images/products/vallmofroen-plant-pot-seagrass__0705486_pe725616_s5.jpg?f=s",
           x: 15,
           y: 75,
         },
@@ -36,30 +38,30 @@ const Collection = () => {
     },
     {
       id: 2,
-      image: "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
-      title: "Cozy Bedroom",
+      image: "/images/Collection2.jpg",
+      title: "Cozy Kitchen",
       products: [
         {
-          name: "Queen Platform Bed",
+          name: "Kitchen Table",
           price: 899,
           image:
-            "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
+            "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-39-img-1.jpg",
           x: 50,
           y: 50,
         },
         {
-          name: "Bedside Table",
+          name: "Table Vase",
           price: 249,
           image:
-            "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
+            "https://eskil.qodeinteractive.com/wp-content/uploads/2022/04/h3-item-01.jpg",
           x: 75,
           y: 45,
         },
         {
-          name: "Table Lamp",
+          name: "Table Chair",
           price: 129,
           image:
-            "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
+            "https://eskil.qodeinteractive.com/wp-content/uploads/2022/04/h3-item-03.jpg",
           x: 80,
           y: 35,
         },
@@ -67,30 +69,29 @@ const Collection = () => {
     },
     {
       id: 3,
-      image: "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
-      title: "Minimalist Office",
+      image: "/images/Collection3.jpg",
+      title: "Minimalist Bedroom",
       products: [
         {
-          name: "Ergonomic Desk Chair",
-          price: 599,
-          image:
-            "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
+          name: "Cozy Queen Bed",
+          price: 1200,
+          image: "https://mononova.ru/wp-content/uploads/2022/08/nuvo-3-1.jpeg",
           x: 45,
           y: 55,
         },
         {
-          name: "Standing Desk",
-          price: 799,
+          name: "Hanging Pendant Light",
+          price: 299,
           image:
-            "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
+            "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-4-img-1.jpg",
           x: 50,
           y: 45,
         },
         {
-          name: "Desk Organizer",
+          name: "Bedside Table",
           price: 49,
           image:
-            "public/lovable-uploads/2c096add-daeb-48cc-97f0-3091a6d59310.png",
+            "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-5-img-1.jpg",
           x: 65,
           y: 40,
         },
@@ -113,7 +114,7 @@ const Collection = () => {
       </div>
       {/**The error message indicates that you are trying to assign an array of objects with a specific structure to a type that expects an empty array... solved by creating a type for product */}
       <section className="w-full h-[35vh] md:h-[40vh] lg:h-[85vh] pt-14 xl:px-8">
-        {looks.map((look) => (
+        {looks.slice(1, 3).map((look) => (
           <CollectionLook
             key={look.id}
             products={look.products}
