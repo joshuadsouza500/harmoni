@@ -22,9 +22,9 @@ export default function Home() {
   return (
     <div className="  font-sans py-2 [#F3F0EA]  bg-white [#f7f7f7f8]">
       <Hero />
-      <About />
-      <NewCollection />
-      <Services />
+      {/**  <About />
+      <NewCollection />   <Services /> */}
+
       <Categories />
       <Collection />
       <FAQ />
