@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "spaze.com" },
       { protocol: "https", hostname: "eskil.qodeinteractive.com" },
-      { protocol: "https", hostname: "mononova.com" },
-      { protocol: "https", hostname: "ikea.com" },
+      { protocol: "https", hostname: "mononova.ru" },
+      { protocol: "https", hostname: "www.ikea.com" },
     ],
   },
 };

@@ -15,24 +15,24 @@ const Collection = () => {
           price: 1299,
           image:
             "https://spaze.com/cdn/shop/files/Regrading2100x1400_Bella_Sofa_BirchIvory_WhiteBackground_DSC_9425.jpg?v=1732827303&width=1200",
-          x: 50,
-          y: 45,
+          x: 49,
+          y: 70,
         },
         {
           name: "Picture Frame",
           price: 299,
           image:
             "https://www.ikea.com/gb/en/images/products/knoppaeng-frame-black__0756626_pe748998_s5.jpg?f=u",
-          x: 50,
-          y: 85,
+          x: 49,
+          y: 25,
         },
         {
           name: "Jute Plant Pot",
           price: 89,
           image:
             "https://www.ikea.com/bh/en/images/products/vallmofroen-plant-pot-seagrass__0705486_pe725616_s5.jpg?f=s",
-          x: 15,
-          y: 75,
+          x: 83,
+          y: 78,
         },
       ],
     },
@@ -46,7 +46,7 @@ const Collection = () => {
           price: 899,
           image:
             "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-39-img-1.jpg",
-          x: 50,
+          x: 32,
           y: 50,
         },
         {
@@ -54,7 +54,7 @@ const Collection = () => {
           price: 249,
           image:
             "https://eskil.qodeinteractive.com/wp-content/uploads/2022/04/h3-item-01.jpg",
-          x: 75,
+          x: 50,
           y: 45,
         },
         {
@@ -62,8 +62,8 @@ const Collection = () => {
           price: 129,
           image:
             "https://eskil.qodeinteractive.com/wp-content/uploads/2022/04/h3-item-03.jpg",
-          x: 80,
-          y: 35,
+          x: 75,
+          y: 70,
         },
       ],
     },
@@ -113,8 +113,8 @@ const Collection = () => {
         </span>
       </div>
       {/**The error message indicates that you are trying to assign an array of objects with a specific structure to a type that expects an empty array... solved by creating a type for product */}
-      <section className="w-full h-[35vh] md:h-[40vh] lg:h-[85vh] pt-14 xl:px-8">
-        {looks.slice(1, 3).map((look) => (
+      <section className="w-full h-[35vh] md:h-[40vh] lg:h-[85vh] xl:h-dvh pt-14 xl:px-8 z-10 relative">
+        {looks.slice(0, 3).map((look) => (
           <CollectionLook
             key={look.id}
             products={look.products}
