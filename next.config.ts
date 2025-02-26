@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* config options here add dofferent sites from where images are taken */
 
   images: {
     remotePatterns: [
