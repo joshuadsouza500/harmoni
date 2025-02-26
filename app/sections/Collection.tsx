@@ -76,24 +76,24 @@ const Collection = () => {
           name: "Cozy Queen Bed",
           price: 1200,
           image: "https://mononova.ru/wp-content/uploads/2022/08/nuvo-3-1.jpeg",
-          x: 45,
-          y: 55,
+          x: 35,
+          y: 78,
         },
         {
           name: "Hanging Pendant Light",
-          price: 299,
+          price: 80,
           image:
             "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-4-img-1.jpg",
-          x: 50,
-          y: 45,
+          x: 61,
+          y: 42,
         },
         {
           name: "Bedside Table",
-          price: 49,
+          price: 120,
           image:
             "https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-5-img-1.jpg",
-          x: 65,
-          y: 40,
+          x: 10,
+          y: 88,
         },
       ],
     },
@@ -114,7 +114,7 @@ const Collection = () => {
       </div>
       {/**The error message indicates that you are trying to assign an array of objects with a specific structure to a type that expects an empty array... solved by creating a type for product */}
       <section className="w-full h-[35vh] md:h-[40vh] lg:h-[85vh] xl:h-dvh pt-14 xl:px-8 z-10 relative">
-        {looks.slice(0, 3).map((look) => (
+        {looks.slice(2, 3).map((look) => (
           <CollectionLook
             key={look.id}
             products={look.products}

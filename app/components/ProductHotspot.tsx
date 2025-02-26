@@ -21,10 +21,10 @@ const ProductHotspot = ({ product }: { product: Product }) => {
                     flex items-center justify-center
                     transition-all duration-300 hover:scale-110 hover:bg-white"
           >
-            <div className="w-2 h-2 rounded-full bg-black/70" />
+            <div className="size-2 rounded-full bg-black/70" />
           </div>
         </HoverCardTrigger>
-        <HoverCardContent className="w-64 p-3 bg-white/95 backdrop-blur-md border border-white/20 shadow-xl">
+        <HoverCardContent className="w-52 lg:w-56 xl:w-64 p-1 xl:p-3 bg-white/95 backdrop-blur-md border border-white/20 shadow-xl">
           <div className="flex items-center gap-3">
             <Image
               height={200}
@@ -34,7 +34,9 @@ const ProductHotspot = ({ product }: { product: Product }) => {
               className="w-16 h-16 object-cover rounded-md"
             />
             <div>
-              <h3 className="font-medium text-sm text-gray-900">{name}</h3>
+              <h3 className="font-medium text-xs md:text-sm text-gray-900">
+                {name}
+              </h3>
               <p className="text-sm text-gray-500">${price.toLocaleString()}</p>
             </div>
           </div>
