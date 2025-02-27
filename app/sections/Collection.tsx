@@ -109,11 +109,11 @@ const Collection = () => {
       <Carousel>
         <div className="flex justify-center md:justify-between items-end">
           <div className="flex flex-col max-md:items-center gap-y-1 max-md:text-center">
-            <h2 className="text-3xl   lg:text-4xl font-medium">
+            <h2 className="text-2xl md:text-3xl   lg:text-4xl font-medium">
               {" "}
               Shop By Look
             </h2>
-            <p className="text-black/75 md:pl-0.5 max-md:w-[75%]">
+            <p className="max-md:text-sm text-black/75 md:pl-0.5 max-md:w-[75%]">
               Shop some of our looks curated by designers
             </p>
           </div>
