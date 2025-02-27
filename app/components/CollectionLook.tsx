@@ -1,5 +1,6 @@
 import React from "react";
 import ProductHotspot from "./ProductHotspot";
+import { CarouselItem } from "@/shadcnComponents/ui/carousel";
 
 export interface Product {
   name: string;
@@ -17,14 +18,14 @@ interface CollectionProps {
 
 const CollectionLook = ({ image, products }: CollectionProps) => {
   return (
-    <div
+    <CarouselItem
       style={{ backgroundImage: `url(${image})`, position: "relative" }}
-      className="w-full h-full bg-no-repeat bg-center bg-cover"
+      className="w-full h-full bg-no-repeat bg-center bg-cover rounded-md"
     >
       {products.map((product, index) => (
         <ProductHotspot key={index} product={product} />
       ))}
-    </div>
+    </CarouselItem>
   );
 };
 
