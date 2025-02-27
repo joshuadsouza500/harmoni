@@ -17,11 +17,11 @@ const ProductHotspot = ({ product }: { product: Product }) => {
       <HoverCard>
         <HoverCardTrigger>
           <div
-            className="w-6 h-6 rounded-full bg-white/80 backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer 
+            className="size-5 md:size-6 rounded-full bg-white/80 backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer 
                     flex items-center justify-center
                     transition-all duration-300 hover:scale-110 hover:bg-white"
           >
-            <div className="size-2 rounded-full bg-black/70" />
+            <div className="size-1.5 md:size-2 rounded-full bg-black/70" />
           </div>
         </HoverCardTrigger>
         <HoverCardContent className="w-52 lg:w-56 xl:w-64 p-1 xl:p-3 bg-white/95 backdrop-blur-md border border-white/20 shadow-xl">
