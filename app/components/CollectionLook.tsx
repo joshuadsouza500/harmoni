@@ -18,13 +18,15 @@ interface CollectionProps {
 
 const CollectionLook = ({ image, products }: CollectionProps) => {
   return (
-    <CarouselItem
-      style={{ backgroundImage: `url(${image})`, position: "relative" }}
-      className="w-[95%] h-full bg-no-repeat bg-center bg-cover rounded-md mx-8 xl:mx-10"
-    >
-      {products.map((product, index) => (
-        <ProductHotspot key={index} product={product} />
-      ))}
+    <CarouselItem className="bg-red-300 w-full  ">
+      <div
+        style={{ backgroundImage: `url(${image})`, position: "relative" }}
+        className="w-[95%] h-full bg-no-repeat bg-center bg-cover rounded-md  md:mx-8 xl:mx-10"
+      >
+        {products.map((product, index) => (
+          <ProductHotspot key={index} product={product} />
+        ))}
+      </div>
     </CarouselItem>
   );
 };

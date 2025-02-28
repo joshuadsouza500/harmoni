@@ -126,7 +126,7 @@ const Collection = () => {
         </div>
         {/**The error message indicates that you are trying to assign an array of objects with a specific structure to a type that expects an empty array... solved by creating a type for product */}
         <section className=" pt-14   mx-auto ">
-          <CarouselContent className="relative  basis-auto  h-[30vh] md:h-[45vh]   lg:h-[75vh] 2xl:h-[70vh]  ">
+          <CarouselContent className="relative  basis-auto  h-[30vh] md:min-h-[400px] lg:min-h-[500px] 2xl:h-[70vh]  ">
             {looks.slice(0, 3).map((look) => (
               <CollectionLook
                 key={look.id}
