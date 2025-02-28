@@ -117,11 +117,10 @@ const Collection = () => {
               Shop some of our looks curated by designers
             </p>
           </div>
-          <span className="hidden md:flex items-center gap-x-2">
-            <span className="hidden md:flex items-center gap-x-3  b">
-              <CarouselPrevious className="" />
-              <CarouselNext className=" " />
-            </span>
+
+          <span className="hidden md:flex items-center gap-x-3 w-auto">
+            <CarouselPrevious className=" size-10   rounded-full bg-white/80 backdrop-blur-sm text-gray-800 transition-all duration-300 shadow-sm hover:bg-white hover:shadow-md flex items-center justify-center" />
+            <CarouselNext className=" size-10   rounded-full bg-white/80 backdrop-blur-sm text-gray-800 transition-all duration-300 shadow-sm hover:bg-white hover:shadow-md flex items-center justify-center" />
           </span>
         </div>
         {/**The error message indicates that you are trying to assign an array of objects with a specific structure to a type that expects an empty array... solved by creating a type for product */}
