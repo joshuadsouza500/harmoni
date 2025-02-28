@@ -2,9 +2,9 @@
 import Link from "next/link";
 
 import { ArrowUpRight } from "lucide-react";
-import Image from "next/image";
 import { useState } from "react";
 import { useMotionValueEvent, useScroll, motion } from "motion/react";
+import Logo from "@/public/images/Logo";
 
 const NavBar = () => {
   {
@@ -85,12 +85,12 @@ const NavBar = () => {
       </div> */}
       <div className="flex justify-between items-center w-full">
         <div className="flex   gap-x-1.5  items-center ">
-          <Image alt="logo" height={20} width={20} src="/Logo.svg" />
+          <Logo />
           <Link
             href="/"
             className=" text-background2 text-xl md:text-2xl     font-medium font-DM_serif tracking-tight"
           >
-            Travelo<span className="text-primary ">.</span>
+            Harmoni
           </Link>
         </div>
 
@@ -124,7 +124,7 @@ const NavBar = () => {
         </nav>
         <button className="block group  border-zinc-800 text-xs md:text-sm text-background rounded-full px-3 py-1.5  md:px-3 md:py-2  bg-gradient-to-br shadow-sm from-black to-zinc-900 hover:border-white">
           <Link href="/contact" className="  flex items-center">
-            Book Now
+            Shop
             <ArrowUpRight className="hidden md:block ml-2 size-4 group-hover:rotate-45  transition-transform bg-white text-black rounded-full " />
           </Link>
         </button>
