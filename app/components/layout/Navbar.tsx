@@ -23,7 +23,7 @@ const NavBar = () => {
 
   return (
     <motion.nav
-      className="  flex  sm:px-6   px-3 py-3 sm:py-3 xl:py-4  mx-auto  z-20  sticky top-0.5 mb-1 rounded-lg backdrop-blur-lg items-center  bg-white/30  max-w-7xl xl:max-w-[98%]  transition-all duration-300 ease-in-out"
+      className="  flex  sm:px-6   px-3 py-3 sm:py-3 xl:py-3  mx-auto  z-20  sticky top-0.5  rounded-lg backdrop-blur-lg items-center  bg-white/30  max-w-7xl xl:max-w-[98%]  transition-all duration-300 ease-in-out"
       variants={{
         hidden: {
           y: -100,
@@ -99,7 +99,7 @@ const NavBar = () => {
             <li>
               <Link
                 href="#Home"
-                className="hover:border-b font-semibold hover:border-black transition-all duration-300 ease-in-out  hover:border-solid scroll-smooth"
+                className="hover:border-b-[0.5px] font-medium hover:border-black transition-all duration-300 ease-in-out  hover:border-solid scroll-smooth"
               >
                 Home
               </Link>
@@ -107,7 +107,7 @@ const NavBar = () => {
             <li>
               <Link
                 href="#About"
-                className="hover:border-b font-semibold hover:border-black transition-all duration-300 ease-in-out  hover:border-solid scroll-smooth"
+                className="hover:border-b-[0.5px] font-medium hover:border-black transition-all duration-300 ease-in-out  hover:border-solid scroll-smooth"
               >
                 About
               </Link>
@@ -115,7 +115,7 @@ const NavBar = () => {
             <li>
               <Link
                 href="#Services"
-                className="hover:border-b font-semibold hover:border-black transition-all duration-300 ease-in-out  hover:border-solid scroll-smooth"
+                className="hover:border-b-[0.5px] font-medium hover:border-black transition-all duration-300 ease-in-out  hover:border-solid scroll-smooth"
               >
                 Services
               </Link>
