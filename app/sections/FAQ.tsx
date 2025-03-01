@@ -67,9 +67,9 @@ const FAQ = () => {
         <div className="hidden lg:block  w-1/2 2xl:w-2/5 max-2xl:pl-6">
           <div className="relative aspect-square bg-gray-50 rounded-2xl overflow-hidden 2xl:h-[500px] shadow-md">
             <Image
-              height={400}
-              width={400}
-              src="/images/Hero1.jpeg"
+              height={800}
+              width={800}
+              src="/images/Chair.png"
               alt="Modern furniture"
               className="w-full h-full object-cover"
               loading="lazy"

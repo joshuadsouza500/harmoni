@@ -10,7 +10,7 @@ const Footer = () => {
           Harmoni
         </h1>
       </Link>
-      <section className="bg-slate-900 mb-1 mx-1 rounded-xl text-white pt-8 xl:pt-16 px-4 md:px-6 2xl:mx-2 overflow-hidden z-10 relative">
+      <section className="bg-[#384353] mb-1 mx-1 rounded-xl text-white pt-8 xl:pt-16 px-4 md:px-6 2xl:mx-2 overflow-hidden z-10 relative">
         <div className="  max-w-7xl 2xl:max-w-8xl mx-auto grid grid-cols-2 lg:grid-cols-3  gap-5 ">
           {/* Brand Column */}
           <div className=" space-y-2">

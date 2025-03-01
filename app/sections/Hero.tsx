@@ -16,7 +16,7 @@ const Hero = () => {
           for a more harmonious lifestyle
         </h6>
       </div>
-      <div className="hidden md:flex absolute bg-white/50 backdrop-blur-sm rounded-md aspect-video  h-48 w-[265px]  bottom-7 right-20  items-center justify-center 2xl:bottom-10 2xl:right-40 shadow-md">
+      <div className="hidden md:flex absolute bg-slate-200/50 backdrop-blur-sm rounded-md aspect-video  h-48 w-[265px]  bottom-7 right-20  items-center justify-center 2xl:bottom-10 2xl:right-40 shadow-md">
         <Image
           src="/images/Hero1.jpeg"
           alt="Hero image"
