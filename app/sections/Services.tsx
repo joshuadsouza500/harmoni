@@ -30,7 +30,7 @@ const Services = () => {
   ];
 
   return (
-    <Bounded className="h-auto pt-8 md:pt-14  2xl:pt-16  pb-16  xl:pb-20  bg-[#384353]">
+    <Bounded className="h-auto pt-8 md:pt-14  2xl:pt-16  pb-16  xl:pb-20 bg-[#EFEFE6]  ">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-semibold text-gray-900 mb-2">
           Why Choose Us

@@ -20,7 +20,7 @@ icon bgL:[#F6EDE7]
 }
 export default function Home() {
   return (
-    <div className="  font-sans py-2 [#F3F0EA]  bg-white [#f7f7f7f8]">
+    <div className="  font-sans py-2 [#F3F0EA]   white [#f7f7f7f8]">
       <Hero />
       {/**       */}
       <About />
